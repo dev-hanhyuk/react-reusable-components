@@ -10,15 +10,17 @@ This repository is a small collection of reusable components for React web devel
 
 ## social media svg-icons
 
-1. copy necessary svg-icon files to your working on component directory.
+1. Copy necessary svg-icon files to your working on component directory.
 
-2. import svg-icon component from directory
+2. Import svg-icon component from directory
 ```JSX
-import ComponentName from `icon_file_name`; ex)import Facebook from 'Facebook'
+import ComponentName from `/icon_folder_name/icon_file_name`; 
+
+ex)import Facebook from '../common/svg-icons/Facebook'
 ```
 
-3. use icon component in JSX render
-You can also send "style" prop to change properties of svg icons.
+3. Use icon component in JSX render
+You can also pass down "style" props to the svg icons.
 
 ```JSX
 render () {
